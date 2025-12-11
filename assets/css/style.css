@@ -1,0 +1,54 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.sidebar li {
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.sidebar li:hover {
+    color: #DB4444;
+}
+
+.hero-banner {
+    background-color: #000;
+}
+
+.text-danger { color: #DB4444 !important; 
+
+
+
+}
+
+
+.card {
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.badge {
+    font-size: 0.75rem;
+}
+
+.countdown span {
+    background-color: #F8F9FA;
+    padding: 5px 10px;
+    border-radius: 4px;
+    margin: 0 5px;
+}
+
+.fa-heart {
+    cursor: pointer;
+    color: #ccc;
+}
+
+.fa-heart.text-danger {
+    color: #DB4444 !important;
+}
+
+.text-danger { color: #DB4444;}
+.card:hover { transition: unset; color: #DB4444;}
